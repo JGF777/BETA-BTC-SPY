@@ -47,10 +47,8 @@ def calculate_beta(ticker, start_date, benchmark):
     return beta, volatilityasset, volatilityspy, accumulated_returnsspy, accumulated_returnsbtc, correlation
 
 #Calling the main function
-beta, volatilityasset, volatilityspy, accumulated_returnsspy, accumulated_returnsbtc, correlation = calculate_beta(
-																								ticker, 
-																								startdate, 
-																								benchmark)
+beta, volatilityasset, volatilityspy, accumulated_returnsspy, accumulated_returnsbtc, correlation = calculate_beta(ticker, startdate, benchmark)
+																								
 
 #Print statements
 print(f"The beta of {ticker} compared to {benchmark} is {beta:.4f}")
